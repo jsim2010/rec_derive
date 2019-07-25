@@ -1,0 +1,21 @@
+[package]
+name = "rec_derive"
+version = "0.1.0"
+authors = ["Justin Simerly <justinsimerly1992@gmail.com>"]
+edition = "2018"
+description = "Implements custom derives for rec"
+license = "MIT"
+repository = "https://github.com/jsim2010/rec_derive"
+readme = "README.md"
+keywords = ["rec"]
+categories = ["development-tools::procedural-macro-helpers", "no-std"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "0.4.30"
+quote = "0.6.13"
+syn = "0.15.42"
